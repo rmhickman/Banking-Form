@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Banking Form</title>
+</head>
+<body>
+  <form action="index.html" method="post">
+    <h1>Sign Up</h1>
+
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" name="first_name">
+
+      <label for="middleInitial">Middle Initial:</label>
+      <input type="text" id="middleInitial" name="middle_initial">
+
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" name="last_name">
+
+      <label for="firstName">Home Address:</label>
+      <input type="address" id="streetAddress" name="address">
+
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" name="occupation">
+
+      <label for="employerAddress">First Name:</label>
+      <input type="text" id="employerAddress" name="employer_address">
+
+      <label>Loan Length:</label>
+      <input type="radio" id="5_years" value="5_years" name="loan_length"><label for="under_13"> 5 Year Loan</label>
+      <input type="radio" id="15_years" value="15_years" name="loan_length"><label for="over_13">15 Year Loan</label>
+      <input type="radio" id="30_years" value="30_years" name="loan_length"><label for="under_13">30 Year Loan</label>
+
+      <label for="loan">Type of Loan:</label>
+      <select id="loan" name="loan_type">
+      	<optgroup>
+      		<option value="Commercial">Commercial</option>
+      		<option value="Real Estate">Real Estate</option>
+      		<option value="Personal">Personal</option>
+      		<option value="Mortgage">Mortgage</option>
+      	</optgroup>
+      </select>
+
+      <label>Special Conditions</label>
+      <input type="checkbox" id="payment" value="down_payment" name="down_payment"><label for="payment">I have a down payment</label>
+      <input type="checkbox" id="state" value="out_of_state" name="out_of_state"><label for="state"></label>
+      <input type="checkbox" id="married" value="married" name="married"><label for="married"> I am Married</label>
+      <input type="checkbox" id="co-signed" value="co_signer" name="co_signer"><label for="co-signed">Loan will be co-signed</label>
+
+      <label for="loanAmount">Requested Loan Amount:</label>
+      <input type="number" id="loanAmount" name="loan_amount">
+
+      <label for="comments">Additonal Comments</label>
+      <textarea id="comments" name="additonal_comments"></textarea>
+
+      <label for="mail">Email:</label>
+      <input type="email" id="mail" name="user_email">
+
+      <label for="mail">Phone Number:</label>
+      <input type="number" id="phone" name="user_phone_number">
+
+      <label for="mail">LinkedIn URL:</label>
+      <input type="url" id="linkedin" name="user_url_linkedin">
+
+
+  </form>
+
+</body>
+</html>
